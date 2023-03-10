@@ -11,13 +11,13 @@
  display: flex; 
     /* background-color: aqua; 
 } */
-
+/* ESTILOS DE LA CABECERA */
 .menu nav {
     background-color: black;
     display: flex;   
 }
 
-/* Aqui se pone el estilo a la etiqueta p del nav */
+/* Aqui se pone el estilo a la etiqueta p del nav PORTFOLIO */
 .menu nav p{
     color: white;
     /* text-align: right; */
@@ -28,10 +28,10 @@
     margin: 15px;
     flex: auto;
     padding-top: 10px;
-    
+    margin-left: 4em;
 }
 
-/* Aqui se pone el estilo a la lista del nav */
+/* Aqui se pone el estilo a la lista del nav NAVEGACION */
 .menu nav ul{
     /* background-color: bisque; */
     list-style: none;
@@ -59,19 +59,20 @@
     font-size: 21px;
 }
 
+/* PRESENTACION */
+/* .cuerpo{
+    background-color: bisque;
+} */
+
 /* Foto y descripcion */
 
 .cuerpo .presentacion{
     display: flex;
-    margin: 50px;
+    margin: 2em;
+    background-color: azure;
 }
 
-.cuerpo .presentacion .presentacion-foto{
-    flex: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* DESCRIPCION */
 
 .cuerpo .presentacion .presentacion-texto{
     flex: 50%;
@@ -89,13 +90,22 @@
     /* letter-spacing: 1px; Espacion entre letras*/
 }
 
+/* FOTO */
 /*Imagen presentacion*/
-.presentacion-foto{
-    height: 200px;
-    width: 200px;
+.cuerpo .presentacion .presentacion-foto{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-img {
+.cuerpo .presentacion .presentacion-foto{
+    height: 18em;
+    width: 18em;
+    margin: 2em;
+}
+
+.cuerpo .presentacion .presentacion-foto img {
     max-width: 100%;
     max-height: 100%;
 }
