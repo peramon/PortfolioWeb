@@ -1,4 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
 
+
+/* nav */
+
+/* .cabecera{
+ display: flex; 
+    /* background-color: aqua; 
+} */
+
+.menu nav {
+    background-color: black;
+    display: flex;   
+}
+
+/* Aqui se pone el estilo a la etiqueta p del nav */
+.menu nav p{
+    color: white;
+    /* text-align: right; */
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: bl;
+    margin: 15px;
+    flex: auto;
+    padding-top: 10px;
+    
+}
+
+/* Aqui se pone el estilo a la lista del nav */
+.menu nav ul{
+    /* background-color: bisque; */
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    flex: auto;
+}
+
+.menu nav ul li {
+    float: right;
+    margin-top: 12px;
+
+}
+
+.menu nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px;
+}
+
+.menu nav ul li a:hover{
+    color: aquamarine;
+    font-size: 21px;
+}
+
+/* Foto y descripcion */
+
+.cuerpo .presentacion{
+    display: flex;
+    margin: 50px;
+}
+
+.cuerpo .presentacion .presentacion-foto{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo .presentacion .presentacion-texto{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo .presentacion .presentacion-texto p{
+    padding-left: 150px;
+    padding-right: 150px; /* 16 px */
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    /* text-shadow: 10px 10px 10px red;     Sombra al texto */
+    /* letter-spacing: 1px; Espacion entre letras*/
+}
 
 /*Imagen presentacion*/
 .presentacion-foto{
@@ -10,3 +99,4 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+
