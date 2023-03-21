@@ -248,6 +248,28 @@ h3 {
 }
 
  /* CONTACTOS */
-footer .contactos ul {
-  display: flex;
+footer .contactos{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+
+footer .contactos .redes-sociales{
+  margin: 12px;
+  text-align: center;
+
+}
+
+footer .contactos .redes-sociales img {
+  max-width: 25%;
+  max-height: 25%;
+  margin: 8px 2em;
+}
+
+/* TEXTO CONTACTOS DIRECTO */
+footer .contactos .contacto-directo{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
 }
