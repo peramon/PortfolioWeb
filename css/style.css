@@ -72,7 +72,7 @@ h3 {
 .cuerpo .presentacion {
   display: flex;
   margin: 2em;
-  background-color: azure;
+  /* background-color: azure; */
 }
 
 /* DESCRIPCION */
@@ -130,7 +130,7 @@ h3 {
   height: 16em;
   width: 16em;
   margin: 1em;
-  background-color: bisque;
+
 
   border-width: 1px;
   border-style: solid;
@@ -145,7 +145,7 @@ h3 {
 }
 
 .cuerpo .habilidades .tecnologias .p-h-tecnologias span {
-  background-color: aqua;
+
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
@@ -176,6 +176,13 @@ h3 {
   grid-row-gap: 1em;
 }
 
+.cuerpo .experiencia .proyectos h3{
+  margin: 12px 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+
 .cuerpo .experiencia .proyectos .p-h-proyectos div {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 1em;
@@ -194,10 +201,53 @@ h3 {
   margin-top: 2em;
 }
 
-.cuerpo .trayectoria ul {
-  display: flex;
+.cuerpo .experiencia .proyectos .p-h-proyectos div p {
+  margin: 8px 24px;
 }
 
+ /* Trayectoria */
+ .cuerpo .experiencia .trayectoria .p-h-trayectoria {
+  display: grid;
+  margin: auto 2em;
+  padding: 2px 16px;
+  /* grid-template-columns:  1fr 1fr; fr ES UNA MEDIDA PROPIA DE GRID - ESPACIO DISPONIBLE EN UNA CUADRICULA*/
+  /* grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: 200px; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 1em;
+}
+
+.cuerpo .experiencia .trayectoria h3{
+  margin: 12px 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+
+.cuerpo .experiencia .trayectoria .p-h-trayectoria div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 1em;
+}
+
+.cuerpo .experiencia .trayectoria .p-h-trayectoria div span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.cuerpo .experiencia .trayectoria .p-h-trayectoria div img {
+  max-width: 50%;
+  max-height: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.cuerpo .experiencia .trayectoria .p-h-trayectoria div p {
+  margin: 8px 24px;
+}
+
+ /* CONTACTOS */
 footer .contactos ul {
   display: flex;
 }
