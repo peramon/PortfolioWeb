@@ -250,7 +250,7 @@ h3 {
  /* CONTACTOS */
 footer .contactos{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(3,1fr);
   
 }
 
@@ -261,8 +261,8 @@ footer .contactos .redes-sociales{
 }
 
 footer .contactos .redes-sociales img {
-  max-width: 25%;
-  max-height: 25%;
+  max-width: 10%;
+  max-height: 10%;
   margin: 8px 2em;
 }
 
@@ -272,4 +272,11 @@ footer .contactos .contacto-directo{
    justify-content: center;
    text-align: center;
    align-items: center;
+}
+
+
+/* Footer del final de la pagina */
+.footer-end{
+  background-color: black ;
+  margin: 4px 0px;
 }
