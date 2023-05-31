@@ -3,10 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1,
-h2,
-h3 {
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1{
   margin-left: 2em;
+}
+
+h2 {
+  margin: 0.8em 2em;
+}
+
+.titulo-descripcion {
+  margin: 0.5em 3.2em;
 }
 
 /* nav */
@@ -78,17 +89,16 @@ h3 {
 /* DESCRIPCION */
 
 .cuerpo .presentacion .presentacion-texto {
-  flex: 50%;
+  flex: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .cuerpo .presentacion .presentacion-texto p {
   padding-left: 150px;
   padding-right: 150px; /* 16 px */
-  font-family: monospace, Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 18px;
+  font-weight: bold;
   /* text-shadow: 10px 10px 10px red;     Sombra al texto */
   /* letter-spacing: 1px; Espacion entre letras*/
 }
@@ -176,12 +186,11 @@ h3 {
   grid-row-gap: 1em;
 }
 
-.cuerpo .experiencia .proyectos h3{
+/* .cuerpo .experiencia .proyectos h3{
   margin: 12px 3em;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-
-}
+} */
 
 .cuerpo .experiencia .proyectos .p-h-proyectos div {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -218,12 +227,11 @@ h3 {
   grid-row-gap: 1em;
 }
 
-.cuerpo .experiencia .trayectoria h3{
+/* .cuerpo .experiencia .trayectoria h3{
   margin: 12px 3em;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-
-}
+} */
 
 .cuerpo .experiencia .trayectoria .p-h-trayectoria div {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -251,17 +259,14 @@ h3 {
 .redes-sociales {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-}
-
-.redes-sociales{
-  margin: 12px;
   text-align: center;
-
+  align-items:center ;
+  margin: 2em;
 }
 
 .redes-sociales img {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 30%;
+  max-height: 30%;
 
 }
 
