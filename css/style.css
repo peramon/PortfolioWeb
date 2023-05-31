@@ -18,6 +18,7 @@ h2 {
 
 .titulo-descripcion {
   margin: 0.5em 3.2em;
+  font-weight: bold;
 }
 
 /* nav */
@@ -65,12 +66,13 @@ h2 {
   font-weight: bold;
   font-size: 20px;
   padding: 18px;
+  transition: 1s all;
 }
 
 .menu nav ul li a:hover,
 .menu nav ul li a:focus {
-  color: aquamarine;
-  font-size: 21px;
+  color: antiquewhite;
+  font-size: 20.5px;
 }
 
 /* PRESENTACION */
@@ -124,9 +126,6 @@ h2 {
   border-radius: 18px;
 }
 
-.cuerpo .habilidades .actitudes {
-}
-
 /* Tecnologias */
 
 .cuerpo .habilidades .tecnologias .p-h-tecnologias {
@@ -172,7 +171,7 @@ h2 {
   margin-top: 2em;
 }
 
-/* Proyectos */
+/* ---------------------- ESTILOS PARA LA PARTE DE PROYECTOS --------------------------------*/
 
 .cuerpo .experiencia .proyectos .p-h-proyectos {
   display: grid;
@@ -195,6 +194,10 @@ h2 {
 .cuerpo .experiencia .proyectos .p-h-proyectos div {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 1em;
+  border: none;
+  border-top: 2px solid black;
+  border-bottom:2px solid black ;
+
 }
 
 .cuerpo .experiencia .proyectos .p-h-proyectos div span {
@@ -203,8 +206,8 @@ h2 {
 }
 
 .cuerpo .experiencia .proyectos .p-h-proyectos div img {
-  max-width: 50%;
-  max-height: 50%;
+  width: 90%;
+  height: auto;
   display: block;
   margin: auto;
   margin-top: 2em;
@@ -214,7 +217,7 @@ h2 {
   margin: 8px 24px;
 }
 
- /* Trayectoria */
+ /* ----------------------------------------------------- Trayectoria ----------------------------------------------------------*/
  .cuerpo .experiencia .trayectoria .p-h-trayectoria {
   display: grid;
   margin: auto 2em;
