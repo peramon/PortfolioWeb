@@ -248,35 +248,34 @@ h3 {
 }
 
  /* CONTACTOS */
-footer .contactos{
+.redes-sociales {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  
 }
 
-footer .contactos .redes-sociales{
+.redes-sociales{
   margin: 12px;
   text-align: center;
 
 }
 
-footer .contactos .redes-sociales img {
-  max-width: 10%;
-  max-height: 10%;
-  margin: 8px 2em;
+.redes-sociales img {
+  max-width: 50%;
+  max-height: 50%;
+
 }
 
-/* TEXTO CONTACTOS DIRECTO */
-footer .contactos .contacto-directo{
-   display: flex;
-   justify-content: center;
-   text-align: center;
-   align-items: center;
+/* Footer Styles */
+footer {
+  text-align: center;
+  background: black;
+  padding: 40px;
+}
+
+.copyright {
+  color: white;
+  font-size: 15px;
+  margin: 20px;
 }
 
 
-/* Footer del final de la pagina */
-.footer-end{
-  background-color: black ;
-  margin: 4px 0px;
-}
